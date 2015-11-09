@@ -49,7 +49,7 @@
 ## 스터디 진행 도우미
 
 - 옥찬호 (utilForever)
-- 윤석준 (icysword)
+- 윤석준 (DevStarSJ)
 
 ## 내용 번역 및 정리 담당
 
