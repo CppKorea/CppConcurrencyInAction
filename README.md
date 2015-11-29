@@ -18,10 +18,14 @@
 
 ![CppConcurrencyinAction](https://github.com/CppKorea/CppConcurrencyInAction/blob/master/CppConcurrencyinAction.jpg)
 
+## Source code
+
+[소스코드 링크 ](https://manning-content.s3.amazonaws.com/download/0/78f6c43-a41b-4eb0-82f2-44c24eba51ad/CCiA_SourceCode.zip 소스코드)
+
 ## 일정
 
 - 9월 19일 : 킥오프 미팅
-- 10월 17일 : 스터디 진행 방식 논의 및 결정 
+- 10월 17일 : 스터디 진행 방식 논의 및 결정
 - 10월 31일 : 내용 번역 및 정리 중간 점검, 부록 A 진행
 - 11월 14일 : 1장 "Hello, world of concurrency in C++!" 및 2장 "Managing threads" 진행
 - 11월 28일 : 3장 "Sharing data between threads" 진행
@@ -38,7 +42,7 @@
 
 - 선납금 : 3만원 (결석으로 인한 비용 처리를 위한 금액)
 - 참가 비용 : 매 회 1만원 (토즈 대여 비용)
-- 회계 담당 : 손건 (jen6) 
+- 회계 담당 : 손건 (jen6)
 
 ## 회계 확인
 
