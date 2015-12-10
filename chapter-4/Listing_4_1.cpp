@@ -1,3 +1,8 @@
+// [Listing 4.1]
+// Waiting for data to process with a std::condition_variable
+
+#include <queue>
+
 #include <mutex>
 #include <condition_variable>
 
