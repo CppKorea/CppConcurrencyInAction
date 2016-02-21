@@ -1,0 +1,27 @@
+APPNAME = 'TEST_QUEUE'
+VERSION = '0.0.1'
+
+top = '.'
+out = 'build'
+
+def configure( conf ):
+    print('-> configuring the project in ' + conf.path.abspath())
+    conf.load( 'g++' )
+    conf.env.CFLAGS = ['-Wall', '-Werror'  ]
+    conf.env.CXXFLAGS = [ '-Wall', '-Werror', '-std=c++11', '-mcx16', '-pthread' ]
+
+def build( build ):
+    print( 'Working Directory : ' + build.path.abspath() )
+
+    build.program (
+        source      = 'LockFreeQueue.cpp',
+        target      = 'LockFreeQueue' )
+
+    build.program (
+        source      = 'LockFreeQueue2.cpp',
+        target      = 'LockFreeQueue2' )
+
+    build.program (
+        source      = 'ThreadSafeQueue.cpp',
+        target      = 'ThreadSafeQueue' )
+
