@@ -19,9 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{44C8ACC2-F658-40F1-B3B5-E2347DC98F32}</ProjectGuid>
-    <Keyword>Win32Proj</Keyword>
-    <RootNamespace>AppendixA</RootNamespace>
+    <ProjectGuid>{720DF439-30FF-4A27-A30A-B74A5A0CBC4D}</ProjectGuid>
+    <RootNamespace>Codes</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -29,27 +28,27 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>Unicode</CharacterSet>
+    <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -69,60 +68,30 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <LinkIncremental>true</LinkIncremental>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <LinkIncremental>true</LinkIncremental>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <LinkIncremental>false</LinkIncremental>
-  </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <LinkIncremental>false</LinkIncremental>
-  </PropertyGroup>
+  <PropertyGroup />
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
-    <Link>
-      <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
-    <Link>
-      <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
-    </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
@@ -130,23 +99,68 @@
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
-      <PrecompiledHeader>
-      </PrecompiledHeader>
       <Optimization>MaxSpeed</Optimization>
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
-      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
     </ClCompile>
     <Link>
-      <SubSystem>Console</SubSystem>
-      <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="References.cpp" />
+    <ClCompile Include="Appendix A\References.cpp" />
+    <ClCompile Include="Appendix C\Listing_C_01.cpp" />
+    <ClCompile Include="Appendix C\Listing_C_02.cpp" />
+    <ClCompile Include="Appendix C\Listing_C_03.cpp" />
+    <ClCompile Include="Appendix C\Listing_C_04.cpp" />
+    <ClCompile Include="Appendix C\Listing_C_05.cpp" />
+    <ClCompile Include="Appendix C\Listing_C_06.cpp" />
+    <ClCompile Include="Appendix C\Listing_C_07.cpp" />
+    <ClCompile Include="Appendix C\Listing_C_08.cpp" />
+    <ClCompile Include="Appendix C\Listing_C_09.cpp" />
+    <ClCompile Include="Appendix C\Listing_C_10.cpp" />
+    <ClCompile Include="Chap3\Listing 3.1 Protecting a list with a mutex.cpp" />
+    <ClCompile Include="Chap3\Listing 3.2 Accidentally passing out a reference to protected data.cpp" />
+    <ClCompile Include="Chap3\Listing 3.3 The interface to the stdstack container adapter.cpp" />
+    <ClCompile Include="Chap3\Listing 3.4 An outline class definition for as thread-safe stack.cpp" />
+    <ClCompile Include="Chap3\Listing 3.5 A fleshed-out class definition for a thread-safe stack.cpp" />
+    <ClCompile Include="Chap3\Listing 3.6 Using  stdlock  and  stdlock_guard  in a swap operation.cpp" />
+    <ClCompile Include="Chap3\Listing 3.7 Using a lock hierarchy to prevent deadlock.cpp" />
+    <ClCompile Include="Chap3\listing_3.10.cpp" />
+    <ClCompile Include="Chap3\listing_3.11.cpp" />
+    <ClCompile Include="Chap3\listing_3.12-2.cpp" />
+    <ClCompile Include="Chap3\listing_3.12.cpp" />
+    <ClCompile Include="Chap3\listing_3.13.cpp" />
+    <ClCompile Include="Chap3\listing_3.9.cpp" />
+    <ClCompile Include="Chap3\modified Listing 3.1.cpp" />
+    <ClCompile Include="Chap4\Listing_4_01.cpp" />
+    <ClCompile Include="Chap4\Listing_4_02.cpp" />
+    <ClCompile Include="Chap4\Listing_4_03.cpp" />
+    <ClCompile Include="Chap4\Listing_4_04.cpp" />
+    <ClCompile Include="Chap4\Listing_4_05.cpp" />
+    <ClCompile Include="Chap4\Listing_4_07.cpp" />
+    <ClCompile Include="Chap4\Listing_4_09.cpp" />
+    <ClCompile Include="Chap4\Listing_4_10.cpp" />
+    <ClCompile Include="Chap4\Listing_4_11.cpp" />
+    <ClCompile Include="Chap4\Listing_4_12.cpp" />
+    <ClCompile Include="Chap4\Listing_4_13.cpp" />
+    <ClCompile Include="Chap4\Listing_4_15.cpp" />
+    <ClCompile Include="Chap4\Listing_4_16.cpp" />
+    <ClCompile Include="Chap6\Listing6_1.cpp" />
+    <ClCompile Include="Chap6\Listing6_2.cpp" />
+    <ClCompile Include="Chap6\Listing6_3.cpp" />
+    <ClCompile Include="Chap6\Listing6_4.cpp" />
+    <ClCompile Include="Chap6\Listing6_5.cpp" />
+    <ClCompile Include="Chap6\Listing6_6.cpp" />
+    <ClCompile Include="Chap6\Listing6_7.cpp" />
+    <ClCompile Include="Chap7\LockFreeQueue.cpp" />
+    <ClCompile Include="Chap7\LockFreeQueue2.cpp" />
+    <ClCompile Include="Chap7\ThreadSafeQueue.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Chap3\Listing 3.8 A simple hierarchical mutex.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

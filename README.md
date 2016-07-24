@@ -16,11 +16,10 @@
 
 ## 교재
 
-![CppConcurrencyinAction](https://github.com/CppKorea/CppConcurrencyInAction/blob/master/CppConcurrencyinAction.jpg)
+[홈페이지](http://www.cplusplusconcurrencyinaction.com/)  
+[코드/정오표](https://www.manning.com/books/c-plus-plus-concurrency-in-action)  
 
-## Source code
-
-[소스코드 링크 ](https://manning-content.s3.amazonaws.com/download/0/78f6c43-a41b-4eb0-82f2-44c24eba51ad/CCiA_SourceCode.zip 소스코드)
+![CppConcurrencyinAction](https://github.com/CppKorea/CppConcurrencyInAction/blob/master/image/CppConcurrencyinAction.jpg)
 
 ## 일정
 
