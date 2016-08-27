@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Chap3">
+      <UniqueIdentifier>{33cd1032-5b59-42cd-85fd-c6fb78c66665}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chap4">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Chap5">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Chap6">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Chap7">
+      <UniqueIdentifier>{8d37732b-28e1-4b3a-8635-def0a7b0a949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chap8">
+      <UniqueIdentifier>{aa245722-9c53-45af-81a5-f3acbc01b0bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Chap9">
+      <UniqueIdentifier>{cfe620b4-4403-4235-be9b-d6605bc55c1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Appendix A">
+      <UniqueIdentifier>{2b8742b3-8a59-412f-b2b3-84de85833fc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Appendix C">
+      <UniqueIdentifier>{f00d8253-3677-4a62-ab42-481d8060bbff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Appendix A\References.cpp">
+      <Filter>Appendix A</Filter>
+    </ClCompile>
+    <ClCompile Include="Appendix C\Listing_C_01.cpp">
+      <Filter>Appendix C</Filter>
+    </ClCompile>
+    <ClCompile Include="Appendix C\Listing_C_02.cpp">
+      <Filter>Appendix C</Filter>
+    </ClCompile>
+    <ClCompile Include="Appendix C\Listing_C_03.cpp">
+      <Filter>Appendix C</Filter>
+    </ClCompile>
+    <ClCompile Include="Appendix C\Listing_C_04.cpp">
+      <Filter>Appendix C</Filter>
+    </ClCompile>
+    <ClCompile Include="Appendix C\Listing_C_05.cpp">
+      <Filter>Appendix C</Filter>
+    </ClCompile>
+    <ClCompile Include="Appendix C\Listing_C_06.cpp">
+      <Filter>Appendix C</Filter>
+    </ClCompile>
+    <ClCompile Include="Appendix C\Listing_C_07.cpp">
+      <Filter>Appendix C</Filter>
+    </ClCompile>
+    <ClCompile Include="Appendix C\Listing_C_08.cpp">
+      <Filter>Appendix C</Filter>
+    </ClCompile>
+    <ClCompile Include="Appendix C\Listing_C_09.cpp">
+      <Filter>Appendix C</Filter>
+    </ClCompile>
+    <ClCompile Include="Appendix C\Listing_C_10.cpp">
+      <Filter>Appendix C</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap4\Listing_4_01.cpp">
+      <Filter>Chap4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap4\Listing_4_02.cpp">
+      <Filter>Chap4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap4\Listing_4_03.cpp">
+      <Filter>Chap4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap4\Listing_4_04.cpp">
+      <Filter>Chap4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap4\Listing_4_05.cpp">
+      <Filter>Chap4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap4\Listing_4_07.cpp">
+      <Filter>Chap4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap4\Listing_4_09.cpp">
+      <Filter>Chap4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap4\Listing_4_10.cpp">
+      <Filter>Chap4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap4\Listing_4_11.cpp">
+      <Filter>Chap4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap4\Listing_4_12.cpp">
+      <Filter>Chap4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap4\Listing_4_13.cpp">
+      <Filter>Chap4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap4\Listing_4_15.cpp">
+      <Filter>Chap4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap4\Listing_4_16.cpp">
+      <Filter>Chap4</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap6\Listing6_1.cpp">
+      <Filter>Chap6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap6\Listing6_2.cpp">
+      <Filter>Chap6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap6\Listing6_3.cpp">
+      <Filter>Chap6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap6\Listing6_4.cpp">
+      <Filter>Chap6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap6\Listing6_5.cpp">
+      <Filter>Chap6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap6\Listing6_6.cpp">
+      <Filter>Chap6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap6\Listing6_7.cpp">
+      <Filter>Chap6</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap3\Listing 3.1 Protecting a list with a mutex.cpp">
+      <Filter>Chap3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap3\Listing 3.2 Accidentally passing out a reference to protected data.cpp">
+      <Filter>Chap3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap3\Listing 3.3 The interface to the stdstack container adapter.cpp">
+      <Filter>Chap3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap3\Listing 3.4 An outline class definition for as thread-safe stack.cpp">
+      <Filter>Chap3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap3\Listing 3.5 A fleshed-out class definition for a thread-safe stack.cpp">
+      <Filter>Chap3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap3\Listing 3.6 Using  stdlock  and  stdlock_guard  in a swap operation.cpp">
+      <Filter>Chap3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap3\Listing 3.7 Using a lock hierarchy to prevent deadlock.cpp">
+      <Filter>Chap3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap3\listing_3.9.cpp">
+      <Filter>Chap3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap3\listing_3.10.cpp">
+      <Filter>Chap3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap3\listing_3.11.cpp">
+      <Filter>Chap3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap3\listing_3.12.cpp">
+      <Filter>Chap3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap3\listing_3.12-2.cpp">
+      <Filter>Chap3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap3\listing_3.13.cpp">
+      <Filter>Chap3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap3\modified Listing 3.1.cpp">
+      <Filter>Chap3</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap7\LockFreeQueue.cpp">
+      <Filter>Chap7</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap7\LockFreeQueue2.cpp">
+      <Filter>Chap7</Filter>
+    </ClCompile>
+    <ClCompile Include="Chap7\ThreadSafeQueue.cpp">
+      <Filter>Chap7</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Chap3\Listing 3.8 A simple hierarchical mutex.h">
+      <Filter>Chap3</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
